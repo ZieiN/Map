@@ -1,6 +1,6 @@
 # Map
 
-Sometimes you want to declare a dynamic 2d array. If you declare it as *`int **`* or *`vector<vector<int>>`* then you may lose the feature of fast access to elements (as the elements are not stored in one line in memory, and therefore not the whole array is copied to cache each time). If you declare it as one array *`int *`*, then you need some helper function to access the elements in convinent way as *`get`* by *`(x,y)`*, or check whether some indecis are inside the map.
+Sometimes you want to declare a dynamic 2d array. If you declare it as *`int **`* or *`vector<vector<int>>`* then you may lose the feature of fast access to elements (as the elements are not stored in one line in memory, and therefore not the whole array is copied to cache each time). If you declare it as one array *`int *`*, then you need some helper function to access the elements in convenient way as *`get`* by *`(x,y)`*, or check whether some indecis are inside the map.
 
 Here is a **Map** class to help you do this.
 
